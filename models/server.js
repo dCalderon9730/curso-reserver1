@@ -27,7 +27,6 @@ class Server {
 
         this.app.use('/api/user', require('../routes/user'));
 
-        
     }
 
     listen() {
